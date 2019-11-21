@@ -1,0 +1,134 @@
+h1{ font-size: 140px;
+    
+    letter-spacing: 15px;
+    width: 1080px;
+    text-transform: uppercase;
+    
+}
+
+
+
+h2{
+    color: goldenrod;
+    font-size: 40px;
+     font-family: "futura", sans-serif;
+}
+
+body{
+    background-color: black;
+    color: goldenrod;
+    font-family: "helvetica", sans-serif;
+	margin-top: 100px;
+    margin-left: 200px;
+    width: 1080px;
+    margin: 1000 auto;
+}
+       
+ 
+
+ container {
+    width: 100x;
+}
+
+
+
+#navbar{
+    overflow: hidden;
+    background-color: goldenrod;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left:0;
+    width: 100%;
+    display: block;
+  z-index: 1;
+}
+#navbar a{
+    display: inline-block; 
+    padding: 14px;
+    font-weight:  800; 
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+#navbar a:hover{
+    background-color: black;
+    color: goldenrod;
+}
+#navbar a:active{
+    background-color: goldenrod;
+}
+
+
+.pic_container{
+    
+    width: 1080px;
+}
+div.b {
+  width: 150px;
+  border: 1px solid black;
+} 
+
+h2 {	
+	font-family: 'Oswald', sans-serif;
+	background-color: goldenrod;
+	padding: 20px;
+    
+    width: 1175px;
+	margin-bottom: 20px;
+    margin-right: 50px;
+
+	letter-spacing: 3px;
+	color: black;
+    text-transform: uppercase;
+}
+
+p {
+    margin-right: 100px;
+    padding-right: 100px;
+    line-height: 30px;
+    width: 1200px;
+    
+}
+
+
+.gallery{ 
+    padding-left: 0px;
+}
+.logo{
+    position: relative;
+    left: 100px;
+}
+  
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 360px;
+    padding-bottom: 30px;
+    position: sticky;
+}
+.image-box img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.25);
+}
+    
+  
+}
+
